@@ -1,0 +1,1 @@
+{\"gdbPath\":\"C:\Users\rocor\AppData\Local\Arduino15\packages\esp32\tools\xtensa-esp32s2-elf-gcc\gcc8_4_0-esp-2021r2-patch3/bin/xtensa-esp32s2-elf-gdb\",\"name\":\"Debug BrnoMakerFaire_Pacman.ino on esp32s2\",\"request\":\"attach\",\"demangle\":true,\"postAttachCommands\":[\"set remote hardware-watchpoint-limit 2\",\"monitor reset halt\",\"flushregs\",\"thb setup\",\"c\"]} 
