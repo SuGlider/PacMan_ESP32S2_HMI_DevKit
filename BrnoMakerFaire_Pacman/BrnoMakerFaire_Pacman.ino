@@ -1571,7 +1571,7 @@ void drawIndexedmap(uint8_t* indexmap, int16_t x, uint16_t y) {
       // duplicate width and height of the game screen (240x320 ==> 480x640)
       screenBuffer[xt + yt * SCR_WIDTH] = (word)_paletteW[indexmap[i]];
       screenBuffer[xt + 1 + yt * SCR_WIDTH] = (word)_paletteW[indexmap[i]];
-      screenBuffer[xt + yt * SCR_WIDTH] = (word)_paletteW[indexmap[i]];
+      screenBuffer[xt + (yt + 1) * SCR_WIDTH] = (word)_paletteW[indexmap[i]];
       screenBuffer[xt + 1 + (yt + 1) * SCR_WIDTH] = (word)_paletteW[indexmap[i]];
       i++;
     }
